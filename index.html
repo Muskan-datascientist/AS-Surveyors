@@ -1,284 +1,86 @@
 <!DOCTYPE html>
 <html lang="mr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- WhatsApp, Google & Social Media Preview Cards -->
-    <title>AS SURVEYOR'S | शासकीय व खाजगी जमिनीचे अचूक मोजणी व नकाशे</title>
-    <meta name="title" content="AS SURVEYOR'S | Land Surveyors - Aadil Sameer Shaikh">
-    <meta name="description" content="All DGPS & Total Station Surveys, Contour Survey, Boundary Demarcation (हद्द कायम), Plot Mapping in Supa, Baramati & Pune. Founder: Aadil Sameer Shaikh. Contact: 9145361566 / 9637484672">
-    
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="AS SURVEYOR'S | Precision & Integrity Land Surveying">
-    <meta property="og:description" content="शासकीय व खाजगी जमिनीचे अचूक मोजणी व नकाशे | DGPS, Total Station, Contour, Demarcation. Supa, Baramati, Pune. Call: 9145361566 / 9637484672">
-    <meta property="og:image" content="https://raw.githubusercontent.com/Muskan-datascientist/as-surveyor/main/logo.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AS SURVEYOR'S - Precision & Integrity | Land Surveying Solutions</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Tailwind CSS & Lucide Icons -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        body { font-family: 'Poppins', 'Noto Sans Devanagari', sans-serif; }
-        .teal-gradient { background: linear-gradient(135deg, #094056 0%, #0c6170 100%); }
-        .gold-text { color: #d69e2e; }
-        .gold-bg { background-color: #d69e2e; }
-    </style>
+  <style>
+    body {
+      font-family: 'Poppins', 'Noto Sans Devanagari', sans-serif;
+    }
+  </style>
 </head>
-<body class="bg-slate-50 text-slate-800 pb-16 md:pb-0">
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-cyan-500 selection:text-white">
 
-    <!-- Top Contact Bar -->
-    <div class="bg-slate-900 text-slate-200 text-xs md:text-sm py-2 px-4 border-b border-slate-800">
-        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
-            <div class="flex items-center gap-4">
-                <span><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> सुपा, बारामती, पुणे (महाराष्ट्र)</span>
-                <span class="hidden sm:inline"><i class="fa-solid fa-envelope text-amber-500 mr-1"></i> assurveyor3474@gmail.com</span>
-            </div>
-            <div class="flex items-center gap-3">
-                <a href="tel:9145361566" class="hover:text-amber-400 font-medium"><i class="fa-solid fa-phone text-amber-500 mr-1"></i> 9145361566</a>
-                <span>|</span>
-                <a href="tel:9637484672" class="hover:text-amber-400 font-medium">9637484672</a>
-            </div>
-        </div>
+  <!-- TOP BAR -->
+  <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4">
+        <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-cyan-400"></i> Supa, Baramati, Pune & All Maharashtra</span>
+        <span class="hidden md:flex items-center gap-1"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> ISO Standard Precision</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:8983196969" class="hover:text-cyan-400 transition-colors">📞 +91 8983196969</a>
+        <a href="tel:9657064377" class="hover:text-cyan-400 transition-colors">📞 +91 9657064377</a>
+      </div>
     </div>
+  </div>
 
-    <!-- Main Navigation Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-            <!-- Brand Logo & Name -->
-            <div class="flex items-center gap-3">
-                <div class="w-12 h-12 rounded-full border-2 border-amber-500 flex items-center justify-center p-1 bg-white shadow-inner">
-                    <!-- Astrological Compass Compass Logo SVG -->
-                    <svg viewBox="0 0 100 100" class="w-full h-full">
-                        <circle cx="50" cy="50" r="45" fill="none" stroke="#0891b2" stroke-width="2" stroke-dasharray="3,3" />
-                        <polygon points="50,10 58,42 90,50 58,58 50,90 42,58 10,50 42,42" fill="#0284c7" />
-                        <polygon points="50,20 56,44 80,50 56,56 50,80 44,56 20,50 44,44" fill="#d97706" />
-                        <circle cx="50" cy="50" r="14" fill="#ffffff" />
-                        <polygon points="50,38 58,58 50,54 42,58" fill="#0f766e" />
-                    </svg>
-                </div>
-                <div>
-                    <h1 class="text-xl md:text-2xl font-black text-cyan-950 tracking-wider">AS SURVEYOR'S</h1>
-                    <p class="text-[10px] md:text-xs font-semibold text-amber-600 tracking-widest uppercase">Precision & Integrity</p>
-                </div>
-            </div>
-
-            <!-- Action Buttons -->
-            <div class="flex items-center gap-2 sm:gap-3">
-                <a href="https://wa.me/919145361566?text=नमस्कार%20A%20S%20Surveyor's,%20मला%20जमीन%20मोजणीबद्दल%20चौकशी%20करायची%20आहे." 
-                   target="_blank" 
-                   class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs md:text-sm font-semibold px-3 py-2 rounded-lg flex items-center gap-1.5 transition">
-                    <i class="fa-brands fa-whatsapp text-lg"></i>
-                    <span class="hidden sm:inline">WhatsApp</span>
-                </a>
-                <a href="tel:9145361566" class="bg-cyan-900 hover:bg-cyan-950 text-white text-xs md:text-sm font-semibold px-3 py-2 rounded-lg flex items-center gap-1.5 transition">
-                    <i class="fa-solid fa-phone"></i>
-                    <span class="hidden sm:inline">कॉल करा</span>
-                </a>
-            </div>
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo & Brand -->
+      <a href="#" class="flex items-center gap-3">
+        <img src="logo.jpg" onerror="this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=120&q=80'" alt="AS SURVEYOR'S" class="w-12 h-12 object-contain rounded-full shadow-sm border border-slate-200">
+        <div>
+          <span class="text-xl font-extrabold tracking-tight text-slate-900 block leading-tight">AS SURVEYOR'S</span>
+          <span class="text-[10px] uppercase tracking-widest font-semibold text-cyan-600 block">Precision & Integrity</span>
         </div>
-    </header>
+      </a>
 
-    <!-- Hero Section -->
-    <section class="teal-gradient text-white py-14 px-4 relative overflow-hidden">
-        <div class="max-w-6xl mx-auto text-center relative z-10">
-            <span class="inline-block bg-amber-500/20 text-amber-300 border border-amber-400/40 px-3.5 py-1 rounded-full text-xs font-medium mb-4">
-                शासकीय व खाजगी जमिनीचे अधिकृत व अचूक मोजणी केंद्र
-            </span>
-            <h2 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
-                अचूक मोजणी, खात्रीशीर निकाल!
-            </h2>
-            <p class="text-slate-200 text-sm md:text-lg max-w-2xl mx-auto mb-6">
-                सुपा, बारामती आणि संपूर्ण पुणे जिल्ह्यात आधुनिक DGPS व Total Station द्वारे सर्व प्रकारच्या मोजणी सेवा.
-            </p>
-            <div class="flex flex-wrap justify-center gap-3 font-medium text-xs md:text-sm">
-                <span class="bg-white/10 px-3 py-1.5 rounded-md border border-white/20"><i class="fa-solid fa-check text-amber-400 mr-1.5"></i>हद्द कायम (Demarcation)</span>
-                <span class="bg-white/10 px-3 py-1.5 rounded-md border border-white/20"><i class="fa-solid fa-check text-amber-400 mr-1.5"></i>कंटूर व लेव्हल सर्व्हे</span>
-                <span class="bg-white/10 px-3 py-1.5 rounded-md border border-white/20"><i class="fa-solid fa-check text-amber-400 mr-1.5"></i>प्लॉट मॅपिंग व नकाशे</span>
-            </div>
-            
-            <div class="mt-8 flex justify-center gap-4">
-                <a href="tel:9145361566" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-6 py-3 rounded-lg shadow-lg transition">
-                    तातडीने संपर्क करा
-                </a>
-            </div>
-        </div>
-    </section>
+      <!-- Navigation Links -->
+      <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+        <a href="#services" class="hover:text-cyan-600 transition-colors">सेवा (Services)</a>
+        <a href="#instruments" class="hover:text-cyan-600 transition-colors">उपकरणे (Tech)</a>
+        <a href="#gallery" class="hover:text-cyan-600 transition-colors">गॅलरी (Gallery)</a>
+        <a href="#video" class="hover:text-cyan-600 transition-colors">व्हिडिओ (Video)</a>
+        <a href="#contact" class="hover:text-cyan-600 transition-colors">संपर्क (Contact)</a>
+      </nav>
 
-    <!-- Founder Info Card -->
-    <section class="max-w-5xl mx-auto px-4 -mt-6 relative z-20">
-        <div class="bg-white p-5 rounded-xl shadow-md border border-slate-200 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div class="flex items-center gap-3">
-                <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center text-xl font-bold">
-                    AS
-                </div>
-                <div>
-                    <h3 class="text-base font-bold text-slate-900">आदिल समीर शेख (Aadil Sameer Shaikh)</h3>
-                    <p class="text-xs text-slate-500">Founder & Lead Surveyor | AS SURVEYOR'S</p>
-                </div>
-            </div>
-            <div class="text-right text-xs text-slate-600 flex flex-col sm:items-end">
-                <span><i class="fa-solid fa-envelope text-amber-600 mr-1"></i> assurveyor3474@gmail.com</span>
-                <span class="font-semibold text-slate-800"><i class="fa-solid fa-phone text-amber-600 mr-1"></i> +91 9145361566 / 9637484672</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="max-w-7xl mx-auto px-4 py-12">
-        <div class="text-center mb-10">
-            <h3 class="text-2xl md:text-3xl font-extrabold text-cyan-950">आमच्या सर्व्हे सेवा (Our Services)</h3>
-            <p class="text-xs md:text-sm text-slate-500 mt-1">अत्याधुनिक उपकरणांद्वारे अचूक आणि जलद मोजणी कामे</p>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <!-- 1. DGPS & Total Station -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-satellite-dish"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">DGPS & Total Station Survey</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">डीजीपीएस व टोटल स्टेशन मोजणी</p>
-                <p class="text-xs text-slate-600">आधुनिक उपकरणांद्वारे जमिनीची अत्यंत अचूक आणि डिजिटल मोजणी.</p>
-            </div>
-
-            <!-- 2. Contour Survey -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-mountain"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Contour Survey</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">कंटूर व पातळी मोजणी</p>
-                <p class="text-xs text-slate-600">जमिनीच्या उंच-सखल भागाचे अचूक नकाशे व लेव्हल सर्व्हे.</p>
-            </div>
-
-            <!-- 3. Boundary Demarcation -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-draw-polygon"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Boundary Demarcation</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">हद्द कायम / हद्दीची मोजणी</p>
-                <p class="text-xs text-slate-600">जमिनीच्या मूळ नकाशाप्रमाणे प्रत्यक्ष जागेवर अचूक हद्द दाखवणे.</p>
-            </div>
-
-            <!-- 4. Plot Mapping -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Plot Mapping</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">प्लॉट मॅपिंग व लेआउट</p>
-                <p class="text-xs text-slate-600">शेतजमीन, एन.ए. (NA) प्लॉट व लेआउटचे अधिकृत डिजिटल नकाशे.</p>
-            </div>
-
-            <!-- 5. Fixing the Boundary -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-location-pin-lock"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Fixing the Boundary</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">हद्द निशाणी / सीमांकन</p>
-                <p class="text-xs text-slate-600">मोजणीनंतर जागेवर अचूक सिमेंट पोल किंवा खुणा निश्चित करणे.</p>
-            </div>
-
-            <!-- 6. Encroachment Survey -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-shield-halved"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Encroachment Survey</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">अतिक्रमण तपासणी मोजणी</p>
-                <p class="text-xs text-slate-600">शेजारील जागेचे किंवा रस्त्याचे अतिक्रमण झाले आहे का हे तपासणे.</p>
-            </div>
-
-            <!-- 7. Detail Survey -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-list-check"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Detail Survey</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">तपशीलवार मोजणी</p>
-                <p class="text-xs text-slate-600">जमिनीवरील झाडे, विहिरी, रस्ते व बांधकामांची सविस्तर नोंद करणे.</p>
-            </div>
-
-            <!-- 8. Topography Survey -->
-            <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-lg transition">
-                <div class="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center text-lg mb-3">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                </div>
-                <h4 class="font-bold text-base text-slate-800">Topography Survey</h4>
-                <p class="text-xs text-amber-700 font-semibold mb-2">टोपोग्राफी सर्व्हे</p>
-                <p class="text-xs text-slate-600">प्रोजेक्ट व बांधकामासाठी जमिनीच्या नैसर्गिक रचनेचा संपूर्ण सर्व्हे.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Direct Inquiry / Lead Form -->
-    <section class="bg-slate-100 py-12 px-4 border-t border-slate-200">
-        <div class="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
-            <div class="text-center mb-6">
-                <h3 class="text-xl md:text-2xl font-bold text-slate-900">मोजणीसाठी थेट WhatsApp मेसेज करा</h3>
-                <p class="text-xs text-slate-500 mt-1">आपली माहिती भरा आणि एका क्लिकवर WhatsApp वर चौकशी पाठवा</p>
-            </div>
-
-            <form onsubmit="sendToWhatsApp(event)" class="space-y-4">
-                <div>
-                    <label class="block text-xs font-semibold text-slate-700 mb-1">आपले नाव (Your Name)</label>
-                    <input type="text" id="custName" required placeholder="उदा. रमेश पाटील" class="w-full px-3 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-cyan-800 outline-none">
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold text-slate-700 mb-1">गावाचे नाव / पत्ता (Location)</label>
-                    <input type="text" id="custLoc" required placeholder="उदा. सुपा / बारामती" class="w-full px-3 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-cyan-800 outline-none">
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold text-slate-700 mb-1">हवी असलेली सर्व्हे सेवा (Service Required)</label>
-                    <select id="custService" class="w-full px-3 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-cyan-800 outline-none">
-                        <option value="DGPS / Total Station मोजणी">DGPS / Total Station मोजणी</option>
-                        <option value="हद्द कायम / मोजणी (Boundary Demarcation)">हद्द कायम / मोजणी (Boundary Demarcation)</option>
-                        <option value="कंटूर सर्व्हे (Contour Survey)">कंटूर सर्व्हे (Contour Survey)</option>
-                        <option value="प्लॉट मॅपिंग व लेआउट">प्लॉट मॅपिंग व लेआउट</option>
-                        <option value="अतिक्रमण तपासणी मोजणी">अतिक्रमण तपासणी मोजणी</option>
-                    </select>
-                </div>
-                <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition">
-                    <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp वर चौकशी पाठवा
-                </button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-8 px-4 text-xs text-center border-t border-slate-800">
-        <p class="font-bold text-slate-200 text-sm mb-1">AS SURVEYOR'S - Precision & Integrity</p>
-        <p>Founder & Lead Surveyor: आदिल समीर शेख (Aadil Sameer Shaikh)</p>
-        <p class="mt-2">कार्यालय: सुपा, ता. बारामती, जि. पुणे (महाराष्ट्र) | फोन: 9145361566 / 9637484672</p>
-        <p class="mt-4 text-slate-600">© 2026 AS SURVEYOR'S. सर्व हक्क राखीव.</p>
-    </footer>
-
-    <!-- Mobile Fixed Bottom Action Bar -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-2 flex justify-around items-center md:hidden z-50 shadow-lg">
-        <a href="tel:9145361566" class="flex-1 text-center py-2 bg-cyan-900 text-white text-xs font-bold rounded-lg mx-1 flex items-center justify-center gap-1">
-            <i class="fa-solid fa-phone"></i> कॉल 1
+      <!-- Action Button -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/918983196969?text=Namaskar%2C%20AS%20Surveyors%20baddal%20mahiti%20havi%20hoti." target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-xl font-semibold text-xs tracking-wide shadow-sm hover:shadow transition-all">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>WhatsApp</span>
         </a>
-        <a href="tel:9637484672" class="flex-1 text-center py-2 bg-cyan-800 text-white text-xs font-bold rounded-lg mx-1 flex items-center justify-center gap-1">
-            <i class="fa-solid fa-phone"></i> कॉल 2
-        </a>
-        <a href="https://wa.me/919145361566?text=नमस्कार%20A%20S%20Surveyor's,%20मला%20जमीन%20मोजणीबद्दल%20चौकशी%20करायची%20आहे." class="flex-1 text-center py-2 bg-emerald-600 text-white text-xs font-bold rounded-lg mx-1 flex items-center justify-center gap-1">
-            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
-        </a>
+      </div>
     </div>
+  </header>
 
-    <script>
-        function sendToWhatsApp(e) {
-            e.preventDefault();
-            const name = document.getElementById('custName').value;
-            const loc = document.getElementById('custLoc').value;
-            const service = document.getElementById('custService').value;
-            const text = `नमस्कार AS SURVEYOR'S,%0A%0Aमला जमीन मोजणी संदर्भात चौकशी करायची आहे:%0A- नाव: ${encodeURIComponent(name)}%0A- गाव/ठिकाण: ${encodeURIComponent(loc)}%0A- हवी असलेली सेवा: ${encodeURIComponent(service)}`;
-            window.open(`https://wa.me/919145361566?text=${text}`, '_blank');
-        }
-    </script>
-</body>
-</html>
+  <!-- HERO SECTION -->
+  <section class="relative bg-gradient-to-b from-slate-900 via-slate-850 to-slate-900 text-white py-20 lg:py-28 overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-500/30 text-cyan-300 text-xs font-semibold">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            अचूक जमीन मोजणी आणि मॅपिंग सोल्यूशन्स
+          </div>
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+            विश्वासार्ह आणि अत्याधुनिक <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">जमीन मोजणी सेवा</span>
+          </h1>
+          <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+            DGPS, Total Station आणि Drone द्वारे शेती, प्लॉट, रस्ता, व बांधकाम क्षेत्राची १००% अचूक मोजणी. वेळेवर अहवाल आणि संपूर्ण पारदर्शकता.
+          </p>
+          <div class="pt-4 flex flex-wrap gap-4">
+            <a href="tel:8983196969" class="inline-flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl text
